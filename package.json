@@ -1,0 +1,28 @@
+{
+  "name": "react-native-toggle-password-visibility",
+  "version": "1.0.0",
+  "description": "React-Native Component For Password Show/Hide",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godrix/react-native-toggle-password-visibility.git"
+  },
+  "author": "Carlos Gabriel Godri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godrix/react-native-toggle-password-visibility/issues"
+  },
+  "homepage": "https://github.com/godrix/react-native-toggle-password-visibility/issues#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "4.0.0",
+    "react-test-renderer": "16.8.3"
+  }
+}
