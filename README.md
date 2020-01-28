@@ -10,12 +10,12 @@ for expo use [react-native-toggle-password-visibility-expo](https://github.com/g
 Install the package with YARN.
 
 ```sh
-yarn add react-native-toggle-password-visibility-expo --save
+yarn add react-native-toggle-password-visibility --save
 ```
 Or with NPM
 
 ```sh
-npm install react-native-toggle-password-visibility-expo --save
+npm install react-native-toggle-password-visibility --save
 ```
 
 # How to use.
