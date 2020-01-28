@@ -37,3 +37,21 @@ export default function App() {
   );
 }
 ```
+## Props
+
+ name          | description                | type     | default
+:--------------|:-------------------------- | --------:|:------------------
+ icon          | Icon before input          |   Number | none
+ iconSize      | Eye icon size              |   Number | 20
+ iconColor     | Eye icon color             |   String | #222222
+ inputStyle    | Text Input animate label   |   object | null
+
+```js
+// Icon before input
+    <InputPasswordToggle 
+      icon="lock"
+      value={password}
+      onChangeText={setPassword}/>
+  );
+}
+```
