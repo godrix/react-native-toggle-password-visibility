@@ -1,4 +1,4 @@
-# React Native Toggle Password Visibility Expo
+# React Native Toggle Password Visibility
 
 This is a custom component for React Native, a simple Toggle Password InputText, compatible with both ios, android and expo.
 
