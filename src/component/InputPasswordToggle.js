@@ -4,14 +4,14 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import PropTypes from 'prop-types';
 
 
-export default function InputPasswordToggle({ style, icon, iconColor, iconSize, ...rest }, ref) {
+export default function InputPasswordToggle({ style, inputStyle, icon, iconColor, iconSize, ...rest }, ref) {
   const [visible, setVisible] = useState(true);
   const refContainer = useRef(ref);
   
   return (
     <View style={[style, styles.container]}>
       {icon && <Icon name={icon} size={iconSize} color={iconColor} />}
-      <TextInput style={styles.input} secureTextEntry={visible} {...rest} ref={refContainer}/>
+      <TextInput style={[styles.input, inputStyle]} secureTextEntry={visible} {...rest} ref={refContainer}/>
       <TouchableOpacity
         onPress={() => {
           setVisible(!visible);
@@ -30,20 +30,25 @@ const styles = StyleSheet.create({
   container:{
     flexDirection:'row',
     alignItems:'center',
+  },
+  input : {
+    flex:1
   }
 })
 
-PasswordInputText.propTypes = {
+InputPasswordToggle.propTypes = {
   icon: PropTypes.string,
   style: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   iconColor: PropTypes.string,
-  iconSize:PropTypes.number
+  iconSize: PropTypes.number,
+  inputStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array])
 };
 
-PasswordInputText.defaultProps = {
+InputPasswordToggle.defaultProps = {
   icon: null,
   style: {},
   iconColor: '#222',
-  iconSize: 20
+  iconSize: 20,
+  inputStyle:{}
 };
 

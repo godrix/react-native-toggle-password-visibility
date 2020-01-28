@@ -1,7 +1,7 @@
 {
   "name": "react-native-toggle-password-visibility",
-  "version": "1.0.0",
-  "description": "React-Native Component For Password Show/Hide",
+  "version": "1.0.3",
+  "description": "React-Native component for toggle password visibility",
   "main": "index.js",
   "repository": {
     "type": "git",
