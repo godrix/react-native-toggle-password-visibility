@@ -44,7 +44,7 @@ export default function App() {
  icon          | Icon before input          |   Number | none
  iconSize      | Eye icon size              |   Number | 20
  iconColor     | Eye icon color             |   String | #222222
- inputStyle    | Text Input animate label   |   object | null
+ inputStyle    | Style Input                |   object | null
 
 ```js
 // Icon before input
