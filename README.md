@@ -26,7 +26,7 @@ Very simple to use just add this component in your file.
 // import packages
 import React, {useState} from 'react';
 import { View } from 'react-native';
-import InputPasswordToggle from 'react-native-toggle-password-visibility-expo';
+import InputPasswordToggle from 'react-native-toggle-password-visibility';
 
 export default function App() {
   const [password, setPassword] = useState('');
